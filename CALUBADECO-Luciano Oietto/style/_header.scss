@@ -1,0 +1,13 @@
+@import "./varibles";
+
+.bgHeader{
+    background-color: $bgPrimary;
+    .titulos{
+        font-size: $fzises;
+        color: $letras;
+    }
+    .miniTitulo{
+        font-size: $fzises2;
+        color: $letras;
+    }
+}

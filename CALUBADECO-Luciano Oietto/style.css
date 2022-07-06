@@ -1,0 +1,249 @@
+.html{
+    background-image: linear-gradient(rgb(240, 200, 207) rgb(212, 156, 212) rgb(0, 0, 0));
+}
+/*HEADER*/
+.container-fluid{
+    background-color: #e8bf90;
+}
+.tituloIndex{
+    color: #3a2813;
+}
+/*PRODUCTOS*/
+.titulo-carrusel{
+    color: #63251a;
+}
+.productos{
+    background-color: #e8bf90;;
+}
+
+.titulo-productos{
+    text-align: center;
+    color: #3a2813;
+}
+/*ASIDE*/
+.aside{
+    background-color: #e8bf90;
+}
+.aside-title:hover{
+    background-color: #ffff;
+    color: #000;
+}
+
+.aside-title{
+    text-align: center;
+    color: #ffff;
+}
+.img-tarjeta{
+    display: flex;
+    justify-content: center;
+}
+.parrafo-aside{
+    color: #ffff;
+    text-align: center;
+}
+
+/*SERVICIOS*/
+.servicios-padre{
+    background-color: #e8bf90;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #e8bf90;
+}
+.instagram{
+   
+    background-image: url(./assets/instagram.jfif);
+    color: #ffff;
+    text-decoration: none;
+   
+}
+.twitter{
+
+    text-decoration: none;
+    background-color: aqua;
+   
+}
+.twitter:hover{
+    background-color: rgb(35, 53, 219);
+}
+/*PRODUCTOS*/
+.body-productos{
+    background-color: #e8bf90;
+}
+.productos-title-page{
+    color: #3a2813;
+    text-align: center;
+    font-size: 100px;
+}
+.productos-subtitulo{
+    color: #ffff;
+    font-size: 2rem;
+}
+.padre-grid-galeria{
+    background-color: #f8e4e7;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap:30px;
+}
+.galeria-item{
+    position: relative;
+}
+.galeria-title{
+    background-color: #f8e4e7;
+    position: absolute;
+    bottom:0;
+    
+}
+.imagenes-galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.galeria-item:nth-child(3){
+    grid-row-start: span 2;
+}
+.galeria-item:nth-child(7){
+    grid-column-start: span 2;
+}
+/*CONTACTANOS*/
+.body-contacto{
+    background-color: #e8bf90;
+}
+.header-pages{
+    background-color: #e8bf90;
+}
+.padre-flex-contactanos{
+    display: flex;
+    justify-content: center;
+}
+.formContactanos{
+    background-color: #f8e4e7;
+    padding: 40px;
+    border: solid;
+    margin: auto 50px;
+}
+.formContactanos__title{
+    font-size: 4rem;
+    text-align: center;
+}
+/*INICIAR SESION*/
+.html-pages{
+    background-color: #e8bf90;
+    font-family: 'Secular One', sans-serif;
+}
+.section-iniciarSesion{
+    background-color: #e8bf90;
+}
+.tituloIniciarSesion{
+    text-align: center;
+    font-size: 50px;
+    border: solid;
+    margin-bottom: 20px;
+}
+.padre-flex-iniciarSesion{
+    display: flex;
+    justify-content: center;
+}
+.formularioIniciarSesion{
+    border: solid;
+    padding: 150px;
+    background-color: #f8e4e7;
+}
+.formularioIniciarSesion__titulo{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 3rem;
+}
+.formularioIniciarSesion__correo{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.formularioIniciarSesion__inputTexto{
+    size: 30px;
+}
+.formularioIniciarSesion__registrarme{
+    text-decoration: none;
+}
+/*REGISTRARME*/
+.padre-flex-registrarme{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.formRegistrarme{
+    background-color: #f8e4e7;
+    padding: 150px;
+    border: solid;
+
+}
+.formRegistrarme__title{
+    display: flex;
+    justify-content: center;
+}
+.hijo-flex-registrarme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.instagram{
+    border: solid;
+    padding: 10px;
+    background-color: #f8e4e7;
+    display: inline-block;
+}
+.twitter{
+    border: solid;
+    padding: 10px;
+    background-color: #f8e4e7;
+    display: inline-block;
+    margin-top: 10px;
+}
+.volverInicio{
+    border: solid;
+    padding: 10px;
+    background-color: #f8e4e7;
+    display: inline-block;
+    margin-top: 10px;
+}
+.volverInicio:hover{
+    background-color:rgb(35, 53, 219) ;
+}
+/*SOBRE NOSOTROS*/
+.h1{
+    text-align: center;
+}
+.quienes{
+    text-align: center;
+}
+
+.sobreNosotros__hijo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:1080px){
+    .servicios-padre{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .formContactanos__title{
+        font-size: 2rem;
+    }
+    .galeria-title{
+        font-size: 20px;
+    }
+    .productos-title-page{
+        font-size: 50px;
+    }
+    .productos-subtitulo{
+        font-size: 20px;
+        text-align: center;
+    }
+}
